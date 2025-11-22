@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Journal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>📘 Trading Journal</h1>
+    </header>
+
+    <section class="stats">
+        <div class="card">
+            <h3>Total Trades</h3>
+            <p id="totalTrades">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Win Rate</h3>
+            <p id="winRate">0%</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Profit</h3>
+            <p id="totalProfit">$0</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Add Trade</h2>
+
+        <div class="form">
+            <input id="pair" placeholder="Trading Pair (BTC/USDT)">
+            <input id="buyPrice" placeholder="Buy Price">
+            <input id="sellPrice" placeholder="Sell Price">
+            <input id="stopLoss" placeholder="Stop Loss">
+            <input id="date" type="date">
+            <textarea id="notes" placeholder="Notes"></textarea>
+
+            <button onclick="addTrade()">Add Trade</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Trade History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pair</th>
+                    <th>Buy</th>
+                    <th>Sell</th>
+                    <th>P/L</th>
+                    <th>Date</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+
+            <tbody id="tradeTable"></tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<h1>Trading Journal</h1>
+<div class="logo-container">
+  <img src="assets/logo.png"
+  class="logo">
+  <h1>Trading Journal</h1>
+  </div>

@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background: #0e0e0e;
+    color: #fff;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.stats {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: #1b1b1b;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px #00fff2;
+}
+
+.form-section {
+    padding: 20px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+button {
+    padding: 12px 20px;
+    width: 100%;
+    background: #00fff2;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+.profit {
+    color: #00ff62;
+    font-weight: bold;
+}
+
+.loss {
+    color: #ff3b3b;
+    font-weight: bold;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 15px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius:10px;
+}
+  
+}
