@@ -92,3 +92,8 @@ Custom dashboards, premium UI, charts, AI tools, or crypto integrations can be a
 ## ⭐ Credits
 
 Built with ❤️ for traders.
+
+### 1️⃣ Clone this repository
+```
+https://amitkumar147.github.io/Product-Showcase-/
+```
