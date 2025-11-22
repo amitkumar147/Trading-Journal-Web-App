@@ -95,5 +95,5 @@ Built with ❤️ for traders.
 
 ### 1️⃣ Clone this repository
 ```
-https://amitkumar147.github.io/Product-Showcase-/
+https://amitkumar147.github.io/Trading-Journal-Web-App/
 ```
